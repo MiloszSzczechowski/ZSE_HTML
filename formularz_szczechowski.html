@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+	<head>
+		<meta charset="utf-8">
+		<title>Miłosz Szczechowski</title>
+	</head>
+	<body bgcolor="#212121">
+		<font color="white">
+			<h1> Aplikacja na członka drużyny sportowej </h1>
+
+			<form id="form1" enctype="text/plain" action="mailto:mkryniew@ids.gda.pl" subject="Szczechowski"  method="Post">
+				<table style="border-spacing: 20px 0;">
+					<tbody align="left">
+						<tr>
+							<td>
+
+								<label for="name" required>Imię:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+								<input type="text" id="name" name="name" required><br>
+
+								<label for="sname" required>Nazwisko:</label>
+								<input type="text" id="sname" name="sname" required><br>
+
+								<label for="contact">Preferowana forma kontaktu:</label> <br>
+								<label><input type="radio" id="contact" name="contact" value="Email" checked required> E-mail </label>
+								<label><input type="radio" id="contact" name="contact" value="Phone" required> Telefon </label>
+								<label><input type="radio" id="contact" name="contact" value="Journal" required> Dziennik </label>
+								<label><input type="radio" id="contact" name="contact" value="Teams" required> Teams </label>
+
+								<br>
+
+								<label for="training_amount">Na ile treningów w tygodniu jesteś w stanie uczęszczać</label> <br>
+								<label><input type="radio" id="training_amount" name="training_amount" value="1" required> 1 </label>
+								<label><input type="radio" id="training_amount" name="training_amount" value="2" required> 2 </label>
+								<label><input type="radio" id="training_amount" name="training_amount" value="3" required> 3 </label>
+								<label><input type="radio" id="training_amount" name="training_amount" value="4" required> 4 </label>
+								<label><input type="radio" id="training_amount" name="training_amount" value="5" required> 5 </label>
+
+								<br>
+
+								<label for="Drive">Sposób dojazdu do szkoły</label> <br>
+								<label><input type="radio" id="Drive" name="Drive" value="Car" required> Samochód </label> <br>
+								<label><input type="radio" id="Drive" name="Drive" value="Bus" required> Autobus </label> <br>
+								<label><input type="radio" id="Drive" name="Drive" value="Other" required> Inne </label>
+
+								<br>
+
+								<label for="Sports">Na ile treningów w tygodniu jesteś w stanie uczęszczać</label> <br>
+								<label><input type="checkbox" id="Sports" name="Sports" value="Basketball"> Koszykówka </label> <br>
+								<label><input type="checkbox" id="Sports" name="Sports" value="Volleyball"> Siatkówka </label> <br>
+								<label><input type="checkbox" id="Sports" name="Sports" value="Football"> Piłka Nożna </label> <br>
+								<label><input type="checkbox" id="Sports" name="Sports" value="Handball"> Piłka Ręczna </label>
+
+								<br>
+
+								<label for="Ability">Jak dobrze grasz w wybrany sport</label> <br>
+								<label><input type="checkbox" id="Ability" name="Ability" value="Bad"> Źle </label> <br>
+								<label><input type="checkbox" id="Ability" name="Ability" value="Average"> Średnio </label> <br>
+								<label><input type="checkbox" id="Ability" name="Ability" value="Good"> Dobrze </label> <br>
+
+								<label for="login">Login:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+								<input type="text" id="login" name="login" required><br>
+
+								<button><a href="tabela_szczechowski.html">TABELA</a></button>
+								<button type="submit" form="form1" value="Submit">Wyślij</button>
+								<input type="reset" value="Czyść">
+							</td>
+							<td>
+
+								<label for="Number">Number w Dzienniku:</label>
+								<input type="text" id="Number" name="Number" maxlength="2" required><br>
+
+								<label for="Class">Klasa:</label>
+								<select name="Class" id="Class" required>
+									<option value="1">1</option>
+    								<option value="2">2</option>
+    								<option value="3">3</option>
+    								<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+
+								<label for="Gender">Płeć:</label>
+								<select name="Gender" id="Gender" required>
+									<option value="None" disabled="disabled" selected>Wybież płeć</option>
+									<option value="M">M</option>
+    								<option value="F">F</option>
+    								<option value="Other">Inne</option>
+								</select>
+
+								<br>
+
+								<label for="Color">Wybież proponowany kolor drużyny:</label>
+								<br>
+								<select name="Color" id="Color" required>
+									<option value="Blue">Niebieski</option>
+    								<option value="Red">Czerwony</option>
+    								<option value="Green">Zielony</option>
+    								<option value="Yellow">Żółty</option>
+								</select>
+
+								<br>
+
+								<label for="Abilities">Opisz swoje umiejętności sportowe</label> <br>
+								<textarea name="Abilities"></textarea>
+
+								<br>
+
+								<label for="Trainers">U Których trenerów chciał byś trenować?</label> <br>
+								<label><input type="checkbox" id="Trainers" name="Trainers" value="Trainer 1"> Trener 1 </label> <br>
+								<label><input type="checkbox" id="Trainers" name="Trainers" value="Trainer 2"> Trener 2 </label> <br>
+								<label><input type="checkbox" id="Trainers" name="Trainers" value="Trainer 3"> Trener 3 </label> <br>
+								<label><input type="checkbox" id="Trainers" name="Trainers" value="Trainer 4"> Trener 4 </label> <br>
+								<label><input type="checkbox" id="Trainers" name="Trainers" value="Trainer 5"> Trener 5 </label> <br>
+
+								<br><br><br><br><br><br><br><br><br>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+
+			<br><br>
+		
+			<A HREF="z1_z11_szczechowski.html#start"> Wróć </A>
+		</font>
+	</body>
+	
+</html>
